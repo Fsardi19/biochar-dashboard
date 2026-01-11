@@ -1,0 +1,2013 @@
+{
+  "tiendas": {
+    "CO - 122 B": {
+      "nombre": "CO - 122 B",
+      "pais": "CO",
+      "n": 39,
+      "metricas": {
+        "pct_conocia": 23.1,
+        "pct_me_encanta": 46.2,
+        "pct_me_gusta": 46.2,
+        "pct_satisfaccion": 92.3,
+        "pct_me_gusta_poco": 7.7,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 12.8,
+        "pct_influye_bastante": 30.8,
+        "pct_influye_alto": 43.6,
+        "pct_influye_poco": 38.5,
+        "pct_no_influye": 17.9,
+        "pct_primera_vez": 15.4,
+        "pct_recurrente": 84.6
+      },
+      "frecuencia": {
+        "Muy frecuente (varias veces/semana)": 5,
+        "Frecuente (semanal)": 9,
+        "Ocasional (1–2 veces/mes)": 20,
+        "Primera vez": 5
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.41,
+          "suelos_sanos": 4.74,
+          "retencion_agua": 4.56,
+          "menos_erosion": 4.74,
+          "mas_nutrientes": 4.77,
+          "menos_quimicos": 4.72,
+          "menos_basura": 4.82,
+          "captura_co2": 4.77,
+          "biodiversidad_suelo": 4.77,
+          "mejor_sabor": 4.36,
+          "resiliencia_climatica": 4.64,
+          "orgullo_consumo": 4.54,
+          "conexion_productor": 4.64
+        },
+        "ranking": [
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.82
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.77
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.77
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.77
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.74
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.74
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.72
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.64
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.64
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.56
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.54
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.41
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.36
+          }
+        ],
+        "top_3": [
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.82
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.77
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.77
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.54
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.41
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.36
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 18,
+        "Me gusta": 18,
+        "Me gusta poco": 3,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 5,
+        "Influye bastante": 12,
+        "Influye poco": 15,
+        "No influye": 7
+      },
+      "insights": [
+        "Base muy leal (84.6% recurrentes). Comunidad establecida.",
+        "Beneficio #1: 'Menos basura en finca'"
+      ],
+      "recomendaciones": [
+        "Programa de embajadores y referidos",
+        "Destacar 'Menos basura en finca' en comunicación local"
+      ],
+      "mensaje_sugerido": "Tu café de hoy = menos basura en finca. El 3% de esta compra financia biochar en fincas. Así de simple es regenerar."
+    },
+    "CO - Calle 109": {
+      "nombre": "CO - Calle 109",
+      "pais": "CO",
+      "n": 83,
+      "metricas": {
+        "pct_conocia": 33.7,
+        "pct_me_encanta": 26.5,
+        "pct_me_gusta": 65.1,
+        "pct_satisfaccion": 91.6,
+        "pct_me_gusta_poco": 8.4,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 9.6,
+        "pct_influye_bastante": 33.7,
+        "pct_influye_alto": 43.4,
+        "pct_influye_poco": 38.6,
+        "pct_no_influye": 18.1,
+        "pct_primera_vez": 24.1,
+        "pct_recurrente": 75.9
+      },
+      "frecuencia": {
+        "Ocasional (1–2 veces/mes)": 41,
+        "Primera vez": 16,
+        "Frecuente (semanal)": 21,
+        "Muy frecuente (varias veces/semana)": 5
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.08,
+          "suelos_sanos": 4.2,
+          "retencion_agua": 4.25,
+          "menos_erosion": 4.25,
+          "mas_nutrientes": 4.22,
+          "menos_quimicos": 4.28,
+          "menos_basura": 4.41,
+          "captura_co2": 4.14,
+          "biodiversidad_suelo": 4.25,
+          "mejor_sabor": 4.3,
+          "resiliencia_climatica": 4.23,
+          "orgullo_consumo": 4.16,
+          "conexion_productor": 4.3
+        },
+        "ranking": [
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.41
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.3
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.3
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.28
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.25
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.25
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.25
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.23
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.22
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.2
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.16
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.14
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.08
+          }
+        ],
+        "top_3": [
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.41
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.3
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.3
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.16
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.14
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.08
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 22,
+        "Me gusta": 54,
+        "Me gusta poco": 7,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 8,
+        "Influye bastante": 28,
+        "Influye poco": 32,
+        "No influye": 15
+      },
+      "insights": [
+        "Buen awareness (33.7%). Clientes informados.",
+        "Beneficio #1: 'Menos basura en finca'"
+      ],
+      "recomendaciones": [
+        "Profundizar con historias de impacto real",
+        "Destacar 'Menos basura en finca' en comunicación local"
+      ],
+      "mensaje_sugerido": "Tu café de hoy = menos basura en finca. El 3% de esta compra financia biochar en fincas. Así de simple es regenerar."
+    },
+    "CO - Calle 79": {
+      "nombre": "CO - Calle 79",
+      "pais": "CO",
+      "n": 35,
+      "metricas": {
+        "pct_conocia": 28.6,
+        "pct_me_encanta": 62.9,
+        "pct_me_gusta": 28.6,
+        "pct_satisfaccion": 91.4,
+        "pct_me_gusta_poco": 5.7,
+        "pct_no_me_gusta": 2.9,
+        "pct_influye_decisivo": 22.9,
+        "pct_influye_bastante": 54.3,
+        "pct_influye_alto": 77.1,
+        "pct_influye_poco": 20.0,
+        "pct_no_influye": 2.9,
+        "pct_primera_vez": 22.9,
+        "pct_recurrente": 77.1
+      },
+      "frecuencia": {
+        "Ocasional (1–2 veces/mes)": 19,
+        "Frecuente (semanal)": 9,
+        "Muy frecuente (varias veces/semana)": 1,
+        "Primera vez": 6
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.66,
+          "suelos_sanos": 4.63,
+          "retencion_agua": 4.6,
+          "menos_erosion": 4.63,
+          "mas_nutrientes": 4.6,
+          "menos_quimicos": 4.69,
+          "menos_basura": 4.63,
+          "captura_co2": 4.51,
+          "biodiversidad_suelo": 4.63,
+          "mejor_sabor": 4.66,
+          "resiliencia_climatica": 4.66,
+          "orgullo_consumo": 4.8,
+          "conexion_productor": 4.77
+        },
+        "ranking": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.8
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.77
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.69
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.66
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.66
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.66
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.63
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.63
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.63
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.63
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.6
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.6
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.51
+          }
+        ],
+        "top_3": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.8
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.77
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.69
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.6
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.6
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.51
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 22,
+        "Me gusta": 10,
+        "Me gusta poco": 2,
+        "No me gusta nada": 1
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 8,
+        "Influye bastante": 19,
+        "Influye poco": 7,
+        "No influye": 1
+      },
+      "insights": [
+        "Alta influencia en retorno (77.1%). El proyecto genera lealtad.",
+        "Beneficio #1: 'Orgullo de consumo'"
+      ],
+      "recomendaciones": [
+        "Comunicar más sobre trazabilidad y resultados",
+        "Destacar 'Orgullo de consumo' en comunicación local"
+      ],
+      "mensaje_sugerido": "Gracias por volver. Tu preferencia impulsa orgullo de consumo y conexión productor en fincas cafeteras. Juntos regeneramos."
+    },
+    "CO - Calle 85": {
+      "nombre": "CO - Calle 85",
+      "pais": "CO",
+      "n": 47,
+      "metricas": {
+        "pct_conocia": 38.3,
+        "pct_me_encanta": 34.0,
+        "pct_me_gusta": 61.7,
+        "pct_satisfaccion": 95.7,
+        "pct_me_gusta_poco": 4.3,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 17.0,
+        "pct_influye_bastante": 63.8,
+        "pct_influye_alto": 80.9,
+        "pct_influye_poco": 12.8,
+        "pct_no_influye": 6.4,
+        "pct_primera_vez": 46.8,
+        "pct_recurrente": 53.2
+      },
+      "frecuencia": {
+        "Ocasional (1–2 veces/mes)": 10,
+        "Primera vez": 17,
+        "Frecuente (semanal)": 13,
+        "Muy frecuente (varias veces/semana)": 7
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.51,
+          "suelos_sanos": 4.32,
+          "retencion_agua": 4.26,
+          "menos_erosion": 4.4,
+          "mas_nutrientes": 4.38,
+          "menos_quimicos": 4.53,
+          "menos_basura": 4.34,
+          "captura_co2": 4.45,
+          "biodiversidad_suelo": 4.43,
+          "mejor_sabor": 4.36,
+          "resiliencia_climatica": 4.45,
+          "orgullo_consumo": 4.38,
+          "conexion_productor": 4.34
+        },
+        "ranking": [
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.53
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.51
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.45
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.45
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.43
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.4
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.38
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.38
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.36
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.34
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.34
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.32
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.26
+          }
+        ],
+        "top_3": [
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.53
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.51
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.45
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.34
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.32
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.26
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 16,
+        "Me gusta": 29,
+        "Me gusta poco": 2,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 8,
+        "Influye bastante": 30,
+        "Influye poco": 6,
+        "No influye": 3
+      },
+      "insights": [
+        "Buen awareness (38.3%). Clientes informados.",
+        "Excelente satisfacción (95.7%). Tienda modelo.",
+        "Alta influencia en retorno (80.9%). El proyecto genera lealtad.",
+        "Muchos clientes nuevos (46.8%). Mercado en expansión.",
+        "Beneficio #1: 'Menos químicos'"
+      ],
+      "recomendaciones": [
+        "Profundizar con historias de impacto real",
+        "Usar como caso de éxito para otras tiendas",
+        "Comunicar más sobre trazabilidad y resultados",
+        "Mensaje de bienvenida + introducción a Biochar",
+        "Destacar 'Menos químicos' en comunicación local"
+      ],
+      "mensaje_sugerido": "¿Primera vez en Libertario? Aquí tu café tiene impacto: apoyamos menos químicos con el 3% de cada venta. Bienvenido a la comunidad regenerativa."
+    },
+    "CO - Calle 93": {
+      "nombre": "CO - Calle 93",
+      "pais": "CO",
+      "n": 77,
+      "metricas": {
+        "pct_conocia": 19.5,
+        "pct_me_encanta": 70.1,
+        "pct_me_gusta": 16.9,
+        "pct_satisfaccion": 87.0,
+        "pct_me_gusta_poco": 11.7,
+        "pct_no_me_gusta": 1.3,
+        "pct_influye_decisivo": 14.3,
+        "pct_influye_bastante": 31.2,
+        "pct_influye_alto": 45.5,
+        "pct_influye_poco": 45.5,
+        "pct_no_influye": 9.1,
+        "pct_primera_vez": 11.7,
+        "pct_recurrente": 88.3
+      },
+      "frecuencia": {
+        "Frecuente (semanal)": 36,
+        "Muy frecuente (varias veces/semana)": 14,
+        "Primera vez": 8,
+        "Ocasional (1–2 veces/mes)": 19
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 3.77,
+          "suelos_sanos": 3.7,
+          "retencion_agua": 3.96,
+          "menos_erosion": 4.0,
+          "mas_nutrientes": 4.03,
+          "menos_quimicos": 3.91,
+          "menos_basura": 3.94,
+          "captura_co2": 4.03,
+          "biodiversidad_suelo": 4.05,
+          "mejor_sabor": 4.16,
+          "resiliencia_climatica": 4.0,
+          "orgullo_consumo": 3.94,
+          "conexion_productor": 3.97
+        },
+        "ranking": [
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.16
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.05
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.03
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.03
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.0
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.0
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 3.97
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 3.96
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 3.94
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 3.94
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 3.91
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 3.77
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 3.7
+          }
+        ],
+        "top_3": [
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.16
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.05
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.03
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 3.91
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 3.77
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 3.7
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 54,
+        "Me gusta": 13,
+        "Me gusta poco": 9,
+        "No me gusta nada": 1
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 11,
+        "Influye bastante": 24,
+        "Influye poco": 35,
+        "No influye": 7
+      },
+      "insights": [
+        "Muy bajo awareness (19.5%). Oportunidad de educar.",
+        "Base muy leal (88.3% recurrentes). Comunidad establecida.",
+        "Beneficio #1: 'Mejor sabor en taza'",
+        "Beneficio menos valorado: 'Menos químicos' (3.91)"
+      ],
+      "recomendaciones": [
+        "Implementar material visual en tienda sobre Biochar",
+        "Programa de embajadores y referidos",
+        "Destacar 'Mejor sabor en taza' en comunicación local"
+      ],
+      "mensaje_sugerido": "Tu café de hoy = mejor sabor en taza. El 3% de esta compra financia biochar en fincas. Así de simple es regenerar."
+    },
+    "CO - FIC48": {
+      "nombre": "CO - FIC48",
+      "pais": "CO",
+      "n": 46,
+      "metricas": {
+        "pct_conocia": 43.5,
+        "pct_me_encanta": 60.9,
+        "pct_me_gusta": 37.0,
+        "pct_satisfaccion": 97.8,
+        "pct_me_gusta_poco": 2.2,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 17.4,
+        "pct_influye_bastante": 28.3,
+        "pct_influye_alto": 45.7,
+        "pct_influye_poco": 13.0,
+        "pct_no_influye": 41.3,
+        "pct_primera_vez": 32.6,
+        "pct_recurrente": 67.4
+      },
+      "frecuencia": {
+        "Muy frecuente (varias veces/semana)": 11,
+        "Frecuente (semanal)": 14,
+        "Ocasional (1–2 veces/mes)": 9,
+        "Primera vez": 12
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.41,
+          "suelos_sanos": 4.17,
+          "retencion_agua": 4.28,
+          "menos_erosion": 4.3,
+          "mas_nutrientes": 4.37,
+          "menos_quimicos": 4.41,
+          "menos_basura": 4.22,
+          "captura_co2": 4.35,
+          "biodiversidad_suelo": 4.39,
+          "mejor_sabor": 4.46,
+          "resiliencia_climatica": 4.22,
+          "orgullo_consumo": 4.43,
+          "conexion_productor": 4.37
+        },
+        "ranking": [
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.46
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.43
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.41
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.41
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.39
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.37
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.37
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.35
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.3
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.28
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.22
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.22
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.17
+          }
+        ],
+        "top_3": [
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.46
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.43
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.41
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.22
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.22
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.17
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 28,
+        "Me gusta": 17,
+        "Me gusta poco": 1,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 8,
+        "Influye bastante": 13,
+        "Influye poco": 6,
+        "No influye": 19
+      },
+      "insights": [
+        "Buen awareness (43.5%). Clientes informados.",
+        "Excelente satisfacción (97.8%). Tienda modelo.",
+        "Beneficio #1: 'Mejor sabor en taza'"
+      ],
+      "recomendaciones": [
+        "Profundizar con historias de impacto real",
+        "Usar como caso de éxito para otras tiendas",
+        "Destacar 'Mejor sabor en taza' en comunicación local"
+      ],
+      "mensaje_sugerido": "Tu café de hoy = mejor sabor en taza. El 3% de esta compra financia biochar en fincas. Así de simple es regenerar."
+    },
+    "CO - Getsemani": {
+      "nombre": "CO - Getsemani",
+      "pais": "CO",
+      "n": 7,
+      "metricas": {
+        "pct_conocia": 28.6,
+        "pct_me_encanta": 100.0,
+        "pct_me_gusta": 0.0,
+        "pct_satisfaccion": 100.0,
+        "pct_me_gusta_poco": 0.0,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 0.0,
+        "pct_influye_bastante": 71.4,
+        "pct_influye_alto": 71.4,
+        "pct_influye_poco": 28.6,
+        "pct_no_influye": 0.0,
+        "pct_primera_vez": 42.9,
+        "pct_recurrente": 57.1
+      },
+      "frecuencia": {
+        "Primera vez": 3,
+        "Muy frecuente (varias veces/semana)": 1,
+        "Ocasional (1–2 veces/mes)": 3
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 3.29,
+          "suelos_sanos": 3.57,
+          "retencion_agua": 3.57,
+          "menos_erosion": 3.14,
+          "mas_nutrientes": 3.57,
+          "menos_quimicos": 3.14,
+          "menos_basura": 3.43,
+          "captura_co2": 3.57,
+          "biodiversidad_suelo": 3.71,
+          "mejor_sabor": 3.43,
+          "resiliencia_climatica": 3.43,
+          "orgullo_consumo": 3.57,
+          "conexion_productor": 3.71
+        },
+        "ranking": [
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 3.71
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 3.71
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 3.57
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 3.57
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 3.57
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 3.57
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 3.57
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 3.43
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 3.43
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 3.43
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 3.29
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 3.14
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 3.14
+          }
+        ],
+        "top_3": [
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 3.71
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 3.71
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 3.57
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 3.29
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 3.14
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 3.14
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 7,
+        "Me gusta": 0,
+        "Me gusta poco": 0,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 0,
+        "Influye bastante": 5,
+        "Influye poco": 2,
+        "No influye": 0
+      },
+      "insights": [
+        "Excelente satisfacción (100.0%). Tienda modelo.",
+        "Alta influencia en retorno (71.4%). El proyecto genera lealtad.",
+        "Muchos clientes nuevos (42.9%). Mercado en expansión.",
+        "Beneficio #1: 'Biodiversidad del suelo'",
+        "Beneficio menos valorado: 'Más ingresos caficultores' (3.29)"
+      ],
+      "recomendaciones": [
+        "Usar como caso de éxito para otras tiendas",
+        "Comunicar más sobre trazabilidad y resultados",
+        "Mensaje de bienvenida + introducción a Biochar",
+        "Destacar 'Biodiversidad del suelo' en comunicación local"
+      ],
+      "mensaje_sugerido": "¿Primera vez en Libertario? Aquí tu café tiene impacto: apoyamos biodiversidad del suelo con el 3% de cada venta. Bienvenido a la comunidad regenerativa."
+    },
+    "CO - Usaquen": {
+      "nombre": "CO - Usaquen",
+      "pais": "CO",
+      "n": 45,
+      "metricas": {
+        "pct_conocia": 17.8,
+        "pct_me_encanta": 62.2,
+        "pct_me_gusta": 33.3,
+        "pct_satisfaccion": 95.6,
+        "pct_me_gusta_poco": 2.2,
+        "pct_no_me_gusta": 2.2,
+        "pct_influye_decisivo": 6.7,
+        "pct_influye_bastante": 55.6,
+        "pct_influye_alto": 62.2,
+        "pct_influye_poco": 22.2,
+        "pct_no_influye": 15.6,
+        "pct_primera_vez": 28.9,
+        "pct_recurrente": 71.1
+      },
+      "frecuencia": {
+        "Primera vez": 14,
+        "Muy frecuente (varias veces/semana)": 7,
+        "Ocasional (1–2 veces/mes)": 15,
+        "Frecuente (semanal)": 9
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.6,
+          "suelos_sanos": 4.78,
+          "retencion_agua": 4.73,
+          "menos_erosion": 4.73,
+          "mas_nutrientes": 4.84,
+          "menos_quimicos": 4.76,
+          "menos_basura": 4.84,
+          "captura_co2": 4.78,
+          "biodiversidad_suelo": 4.82,
+          "mejor_sabor": 4.56,
+          "resiliencia_climatica": 4.8,
+          "orgullo_consumo": 4.51,
+          "conexion_productor": 4.73
+        },
+        "ranking": [
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.84
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.84
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.82
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.8
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.78
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.78
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.76
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.73
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.73
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.73
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.6
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.56
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.51
+          }
+        ],
+        "top_3": [
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.84
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.84
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.82
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.6
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.56
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.51
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 28,
+        "Me gusta": 15,
+        "Me gusta poco": 1,
+        "No me gusta nada": 1
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 3,
+        "Influye bastante": 25,
+        "Influye poco": 10,
+        "No influye": 7
+      },
+      "insights": [
+        "Muy bajo awareness (17.8%). Oportunidad de educar.",
+        "Excelente satisfacción (95.6%). Tienda modelo.",
+        "Alta influencia en retorno (62.2%). El proyecto genera lealtad.",
+        "Beneficio #1: 'Más nutrientes'"
+      ],
+      "recomendaciones": [
+        "Implementar material visual en tienda sobre Biochar",
+        "Usar como caso de éxito para otras tiendas",
+        "Comunicar más sobre trazabilidad y resultados",
+        "Destacar 'Más nutrientes' en comunicación local"
+      ],
+      "mensaje_sugerido": "Gracias por volver. Tu preferencia impulsa más nutrientes y menos basura en finca en fincas cafeteras. Juntos regeneramos."
+    },
+    "CO - Zona G": {
+      "nombre": "CO - Zona G",
+      "pais": "CO",
+      "n": 59,
+      "metricas": {
+        "pct_conocia": 23.7,
+        "pct_me_encanta": 55.9,
+        "pct_me_gusta": 35.6,
+        "pct_satisfaccion": 91.5,
+        "pct_me_gusta_poco": 8.5,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 1.7,
+        "pct_influye_bastante": 42.4,
+        "pct_influye_alto": 44.1,
+        "pct_influye_poco": 25.4,
+        "pct_no_influye": 30.5,
+        "pct_primera_vez": 49.2,
+        "pct_recurrente": 50.8
+      },
+      "frecuencia": {
+        "Ocasional (1–2 veces/mes)": 20,
+        "Muy frecuente (varias veces/semana)": 3,
+        "Primera vez": 23,
+        "Frecuente (semanal)": 13
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.56,
+          "suelos_sanos": 4.61,
+          "retencion_agua": 4.66,
+          "menos_erosion": 4.71,
+          "mas_nutrientes": 4.69,
+          "menos_quimicos": 4.8,
+          "menos_basura": 4.64,
+          "captura_co2": 4.58,
+          "biodiversidad_suelo": 4.66,
+          "mejor_sabor": 4.58,
+          "resiliencia_climatica": 4.68,
+          "orgullo_consumo": 4.53,
+          "conexion_productor": 4.59
+        },
+        "ranking": [
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.8
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.71
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.69
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.68
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.66
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.66
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.64
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.61
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.59
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.58
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.58
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.56
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.53
+          }
+        ],
+        "top_3": [
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.8
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.71
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.69
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.58
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.56
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.53
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 33,
+        "Me gusta": 21,
+        "Me gusta poco": 5,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 1,
+        "Influye bastante": 25,
+        "Influye poco": 15,
+        "No influye": 18
+      },
+      "insights": [
+        "Muchos clientes nuevos (49.2%). Mercado en expansión.",
+        "Beneficio #1: 'Menos químicos'"
+      ],
+      "recomendaciones": [
+        "Mensaje de bienvenida + introducción a Biochar",
+        "Destacar 'Menos químicos' en comunicación local"
+      ],
+      "mensaje_sugerido": "¿Primera vez en Libertario? Aquí tu café tiene impacto: apoyamos menos químicos con el 3% de cada venta. Bienvenido a la comunidad regenerativa."
+    },
+    "CR - Escalante": {
+      "nombre": "CR - Escalante",
+      "pais": "CR",
+      "n": 42,
+      "metricas": {
+        "pct_conocia": 23.8,
+        "pct_me_encanta": 28.6,
+        "pct_me_gusta": 42.9,
+        "pct_satisfaccion": 71.4,
+        "pct_me_gusta_poco": 7.1,
+        "pct_no_me_gusta": 21.4,
+        "pct_influye_decisivo": 7.1,
+        "pct_influye_bastante": 35.7,
+        "pct_influye_alto": 42.9,
+        "pct_influye_poco": 38.1,
+        "pct_no_influye": 19.0,
+        "pct_primera_vez": 40.5,
+        "pct_recurrente": 59.5
+      },
+      "frecuencia": {
+        "Primera vez": 16,
+        "Ocasional (1–2 veces/mes)": 11,
+        "Frecuente (semanal)": 8,
+        "Muy frecuente (varias veces/semana)": 7
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.33,
+          "suelos_sanos": 4.24,
+          "retencion_agua": 4.43,
+          "menos_erosion": 4.33,
+          "mas_nutrientes": 4.36,
+          "menos_quimicos": 4.5,
+          "menos_basura": 4.4,
+          "captura_co2": 4.36,
+          "biodiversidad_suelo": 4.36,
+          "mejor_sabor": 4.45,
+          "resiliencia_climatica": 4.45,
+          "orgullo_consumo": 4.31,
+          "conexion_productor": 4.57
+        },
+        "ranking": [
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.57
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.5
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.45
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.45
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.43
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.4
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.36
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.36
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.36
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.33
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.33
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.31
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.24
+          }
+        ],
+        "top_3": [
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.57
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.5
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.45
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.33
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.31
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.24
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 12,
+        "Me gusta": 18,
+        "Me gusta poco": 3,
+        "No me gusta nada": 9
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 3,
+        "Influye bastante": 15,
+        "Influye poco": 16,
+        "No influye": 8
+      },
+      "insights": [
+        "⚠️ Satisfacción baja (71.4%). Requiere atención.",
+        "Muchos clientes nuevos (40.5%). Mercado en expansión.",
+        "Beneficio #1: 'Conexión productor'"
+      ],
+      "recomendaciones": [
+        "Investigar causas de insatisfacción con equipo local",
+        "Mensaje de bienvenida + introducción a Biochar",
+        "Destacar 'Conexión productor' en comunicación local"
+      ],
+      "mensaje_sugerido": "En Escalante, cada taza apoya a caficultores. El 3% de tu compra financia biochar: conexión productor y menos químicos. Pregúntanos cómo funciona."
+    },
+    "MX - Colima 340": {
+      "nombre": "MX - Colima 340",
+      "pais": "MX",
+      "n": 11,
+      "metricas": {
+        "pct_conocia": 36.4,
+        "pct_me_encanta": 72.7,
+        "pct_me_gusta": 27.3,
+        "pct_satisfaccion": 100.0,
+        "pct_me_gusta_poco": 0.0,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 18.2,
+        "pct_influye_bastante": 45.5,
+        "pct_influye_alto": 63.6,
+        "pct_influye_poco": 18.2,
+        "pct_no_influye": 18.2,
+        "pct_primera_vez": 18.2,
+        "pct_recurrente": 81.8
+      },
+      "frecuencia": {
+        "Primera vez": 2,
+        "Muy frecuente (varias veces/semana)": 3,
+        "Ocasional (1–2 veces/mes)": 5,
+        "Frecuente (semanal)": 1
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.27,
+          "suelos_sanos": 4.27,
+          "retencion_agua": 4.18,
+          "menos_erosion": 4.45,
+          "mas_nutrientes": 4.36,
+          "menos_quimicos": 4.55,
+          "menos_basura": 4.55,
+          "captura_co2": 4.36,
+          "biodiversidad_suelo": 4.36,
+          "mejor_sabor": 4.55,
+          "resiliencia_climatica": 4.45,
+          "orgullo_consumo": 4.64,
+          "conexion_productor": 4.45
+        },
+        "ranking": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.64
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.55
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.55
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.55
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.45
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.45
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.45
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.36
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.36
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.36
+          },
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.27
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.27
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.18
+          }
+        ],
+        "top_3": [
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.64
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.55
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.55
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.27
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.27
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.18
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 8,
+        "Me gusta": 3,
+        "Me gusta poco": 0,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 2,
+        "Influye bastante": 5,
+        "Influye poco": 2,
+        "No influye": 2
+      },
+      "insights": [
+        "Buen awareness (36.4%). Clientes informados.",
+        "Excelente satisfacción (100.0%). Tienda modelo.",
+        "Alta influencia en retorno (63.6%). El proyecto genera lealtad.",
+        "Base muy leal (81.8% recurrentes). Comunidad establecida.",
+        "Beneficio #1: 'Orgullo de consumo'"
+      ],
+      "recomendaciones": [
+        "Profundizar con historias de impacto real",
+        "Usar como caso de éxito para otras tiendas",
+        "Comunicar más sobre trazabilidad y resultados",
+        "Programa de embajadores y referidos",
+        "Destacar 'Orgullo de consumo' en comunicación local"
+      ],
+      "mensaje_sugerido": "Gracias por volver. Tu preferencia impulsa orgullo de consumo y menos químicos en fincas cafeteras. Juntos regeneramos."
+    },
+    "MX - Roma Norte": {
+      "nombre": "MX - Roma Norte",
+      "pais": "MX",
+      "n": 15,
+      "metricas": {
+        "pct_conocia": 13.3,
+        "pct_me_encanta": 60.0,
+        "pct_me_gusta": 33.3,
+        "pct_satisfaccion": 93.3,
+        "pct_me_gusta_poco": 6.7,
+        "pct_no_me_gusta": 0.0,
+        "pct_influye_decisivo": 6.7,
+        "pct_influye_bastante": 73.3,
+        "pct_influye_alto": 80.0,
+        "pct_influye_poco": 20.0,
+        "pct_no_influye": 0.0,
+        "pct_primera_vez": 40.0,
+        "pct_recurrente": 60.0
+      },
+      "frecuencia": {
+        "Ocasional (1–2 veces/mes)": 7,
+        "Primera vez": 5,
+        "Frecuente (semanal)": 1,
+        "Muy frecuente (varias veces/semana)": 2
+      },
+      "beneficios": {
+        "promedios": {
+          "ingresos_caficultores": 4.8,
+          "suelos_sanos": 4.6,
+          "retencion_agua": 4.67,
+          "menos_erosion": 4.6,
+          "mas_nutrientes": 4.8,
+          "menos_quimicos": 4.67,
+          "menos_basura": 4.67,
+          "captura_co2": 4.33,
+          "biodiversidad_suelo": 4.47,
+          "mejor_sabor": 4.53,
+          "resiliencia_climatica": 4.47,
+          "orgullo_consumo": 4.4,
+          "conexion_productor": 4.6
+        },
+        "ranking": [
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.8
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.8
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.67
+          },
+          {
+            "key": "menos_quimicos",
+            "nombre": "Menos químicos",
+            "promedio": 4.67
+          },
+          {
+            "key": "menos_basura",
+            "nombre": "Menos basura en finca",
+            "promedio": 4.67
+          },
+          {
+            "key": "suelos_sanos",
+            "nombre": "Suelos más sanos",
+            "promedio": 4.6
+          },
+          {
+            "key": "menos_erosion",
+            "nombre": "Menos erosión",
+            "promedio": 4.6
+          },
+          {
+            "key": "conexion_productor",
+            "nombre": "Conexión productor",
+            "promedio": 4.6
+          },
+          {
+            "key": "mejor_sabor",
+            "nombre": "Mejor sabor en taza",
+            "promedio": 4.53
+          },
+          {
+            "key": "biodiversidad_suelo",
+            "nombre": "Biodiversidad del suelo",
+            "promedio": 4.47
+          },
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.47
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.4
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.33
+          }
+        ],
+        "top_3": [
+          {
+            "key": "ingresos_caficultores",
+            "nombre": "Más ingresos caficultores",
+            "promedio": 4.8
+          },
+          {
+            "key": "mas_nutrientes",
+            "nombre": "Más nutrientes",
+            "promedio": 4.8
+          },
+          {
+            "key": "retencion_agua",
+            "nombre": "Retención de agua",
+            "promedio": 4.67
+          }
+        ],
+        "bottom_3": [
+          {
+            "key": "resiliencia_climatica",
+            "nombre": "Resiliencia climática",
+            "promedio": 4.47
+          },
+          {
+            "key": "orgullo_consumo",
+            "nombre": "Orgullo de consumo",
+            "promedio": 4.4
+          },
+          {
+            "key": "captura_co2",
+            "nombre": "Captura de CO₂",
+            "promedio": 4.33
+          }
+        ]
+      },
+      "opinion_distribucion": {
+        "Me encanta": 9,
+        "Me gusta": 5,
+        "Me gusta poco": 1,
+        "No me gusta nada": 0
+      },
+      "influencia_distribucion": {
+        "Es decisivo": 1,
+        "Influye bastante": 11,
+        "Influye poco": 3,
+        "No influye": 0
+      },
+      "insights": [
+        "Muy bajo awareness (13.3%). Oportunidad de educar.",
+        "Alta influencia en retorno (80.0%). El proyecto genera lealtad.",
+        "Beneficio #1: 'Más ingresos caficultores'"
+      ],
+      "recomendaciones": [
+        "Implementar material visual en tienda sobre Biochar",
+        "Comunicar más sobre trazabilidad y resultados",
+        "Destacar 'Más ingresos caficultores' en comunicación local"
+      ],
+      "mensaje_sugerido": "¿Primera vez en Libertario? Aquí tu café tiene impacto: apoyamos más ingresos caficultores con el 3% de cada venta. Bienvenido a la comunidad regenerativa."
+    }
+  }
+}

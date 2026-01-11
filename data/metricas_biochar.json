@@ -1,0 +1,610 @@
+{
+  "kpis": {
+    "total_encuestados": 836,
+    "pct_conocia_iniciativa": 22.0,
+    "pct_me_encanta_gusta": 91.0,
+    "pct_influye_bastante_mucho": 43.7
+  },
+  "metricas_generales": {
+    "total_encuestados": 836,
+    "encuestados_con_ubicacion": 506,
+    "encuestados_sin_ubicacion": 330,
+    "fecha_inicio": "2025-11-11 15:13:00",
+    "fecha_fin": "2026-01-07 10:19:55",
+    "distribucion_pais": {
+      "MX": 26,
+      "CO": 438,
+      "CR": 42,
+      "Sin especificar": 330
+    },
+    "distribucion_coffee_shop": {
+      "MX - Roma Norte": 15,
+      "CO - Calle 85": 47,
+      "CR - Escalante": 42,
+      "CO - FIC48": 46,
+      "CO - Calle 93": 77,
+      "CO - Getsemani": 7,
+      "CO - Calle 79": 35,
+      "CO - Calle 109": 83,
+      "CO - Usaquen": 45,
+      "CO - 122 B": 39,
+      "CO - Zona G": 59,
+      "MX - Colima 340": 11,
+      "Sin especificar": 330
+    },
+    "distribucion_frecuencia": {
+      "Ocasional (1–2 veces/mes)": 323,
+      "Primera vez": 209,
+      "Muy frecuente (varias veces/semana)": 98,
+      "Frecuente (semanal)": 206
+    },
+    "primera_vez": 240,
+    "recurrentes": 596
+  },
+  "beneficios_biochar": {
+    "estadisticas": {
+      "ingresos_caficultores": {
+        "nombre": "Más ingresos para caficultores",
+        "promedio": 4.39,
+        "promotores_pct": 85.4,
+        "detractores_pct": 5.0,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 14,
+          "2": 28,
+          "3": 80,
+          "4": 211,
+          "5": 503
+        }
+      },
+      "suelos_sanos": {
+        "nombre": "Suelos más sanos y productivos",
+        "promedio": 4.43,
+        "promotores_pct": 86.6,
+        "detractores_pct": 3.6,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 8,
+          "2": 22,
+          "3": 82,
+          "4": 213,
+          "5": 511
+        }
+      },
+      "retencion_agua": {
+        "nombre": "Mayor retención de agua",
+        "promedio": 4.4,
+        "promotores_pct": 86.5,
+        "detractores_pct": 4.4,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 12,
+          "2": 25,
+          "3": 76,
+          "4": 228,
+          "5": 495
+        }
+      },
+      "menos_erosion": {
+        "nombre": "Menos erosión",
+        "promedio": 4.44,
+        "promotores_pct": 86.7,
+        "detractores_pct": 3.8,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 10,
+          "2": 22,
+          "3": 79,
+          "4": 201,
+          "5": 524
+        }
+      },
+      "mas_nutrientes": {
+        "nombre": "Más nutrientes disponibles",
+        "promedio": 4.46,
+        "promotores_pct": 86.6,
+        "detractores_pct": 3.3,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 8,
+          "2": 20,
+          "3": 84,
+          "4": 190,
+          "5": 534
+        }
+      },
+      "menos_quimicos": {
+        "nombre": "Menos químicos",
+        "promedio": 4.51,
+        "promotores_pct": 89.2,
+        "detractores_pct": 3.0,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 9,
+          "2": 16,
+          "3": 65,
+          "4": 194,
+          "5": 552
+        }
+      },
+      "menos_basura": {
+        "nombre": "Menos basura en finca",
+        "promedio": 4.47,
+        "promotores_pct": 87.6,
+        "detractores_pct": 3.3,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 11,
+          "2": 17,
+          "3": 76,
+          "4": 194,
+          "5": 538
+        }
+      },
+      "captura_co2": {
+        "nombre": "Captura de CO₂ estable",
+        "promedio": 4.44,
+        "promotores_pct": 87.1,
+        "detractores_pct": 3.5,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 14,
+          "2": 15,
+          "3": 79,
+          "4": 213,
+          "5": 515
+        }
+      },
+      "biodiversidad_suelo": {
+        "nombre": "Mayor biodiversidad del suelo",
+        "promedio": 4.47,
+        "promotores_pct": 88.2,
+        "detractores_pct": 3.3,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 14,
+          "2": 14,
+          "3": 71,
+          "4": 202,
+          "5": 535
+        }
+      },
+      "mejor_sabor": {
+        "nombre": "Mejor sabor en taza",
+        "promedio": 4.41,
+        "promotores_pct": 85.0,
+        "detractores_pct": 3.5,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 11,
+          "2": 18,
+          "3": 96,
+          "4": 203,
+          "5": 508
+        }
+      },
+      "resiliencia_climatica": {
+        "nombre": "Mayor resiliencia climática",
+        "promedio": 4.47,
+        "promotores_pct": 87.9,
+        "detractores_pct": 3.3,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 9,
+          "2": 19,
+          "3": 73,
+          "4": 203,
+          "5": 532
+        }
+      },
+      "orgullo_consumo": {
+        "nombre": "Orgullo de consumo responsable",
+        "promedio": 4.37,
+        "promotores_pct": 83.9,
+        "detractores_pct": 4.4,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 16,
+          "2": 21,
+          "3": 98,
+          "4": 201,
+          "5": 500
+        }
+      },
+      "conexion_productor": {
+        "nombre": "Conexión productor-consumidor",
+        "promedio": 4.46,
+        "promotores_pct": 86.4,
+        "detractores_pct": 3.9,
+        "total_respuestas": 836,
+        "distribucion": {
+          "1": 12,
+          "2": 21,
+          "3": 81,
+          "4": 175,
+          "5": 547
+        }
+      }
+    },
+    "ranking": [
+      {
+        "key": "menos_quimicos",
+        "nombre": "Menos químicos",
+        "promedio": 4.51,
+        "promotores_pct": 89.2
+      },
+      {
+        "key": "menos_basura",
+        "nombre": "Menos basura en finca",
+        "promedio": 4.47,
+        "promotores_pct": 87.6
+      },
+      {
+        "key": "biodiversidad_suelo",
+        "nombre": "Mayor biodiversidad del suelo",
+        "promedio": 4.47,
+        "promotores_pct": 88.2
+      },
+      {
+        "key": "resiliencia_climatica",
+        "nombre": "Mayor resiliencia climática",
+        "promedio": 4.47,
+        "promotores_pct": 87.9
+      },
+      {
+        "key": "mas_nutrientes",
+        "nombre": "Más nutrientes disponibles",
+        "promedio": 4.46,
+        "promotores_pct": 86.6
+      },
+      {
+        "key": "conexion_productor",
+        "nombre": "Conexión productor-consumidor",
+        "promedio": 4.46,
+        "promotores_pct": 86.4
+      },
+      {
+        "key": "menos_erosion",
+        "nombre": "Menos erosión",
+        "promedio": 4.44,
+        "promotores_pct": 86.7
+      },
+      {
+        "key": "captura_co2",
+        "nombre": "Captura de CO₂ estable",
+        "promedio": 4.44,
+        "promotores_pct": 87.1
+      },
+      {
+        "key": "suelos_sanos",
+        "nombre": "Suelos más sanos y productivos",
+        "promedio": 4.43,
+        "promotores_pct": 86.6
+      },
+      {
+        "key": "mejor_sabor",
+        "nombre": "Mejor sabor en taza",
+        "promedio": 4.41,
+        "promotores_pct": 85.0
+      },
+      {
+        "key": "retencion_agua",
+        "nombre": "Mayor retención de agua",
+        "promedio": 4.4,
+        "promotores_pct": 86.5
+      },
+      {
+        "key": "ingresos_caficultores",
+        "nombre": "Más ingresos para caficultores",
+        "promedio": 4.39,
+        "promotores_pct": 85.4
+      },
+      {
+        "key": "orgullo_consumo",
+        "nombre": "Orgullo de consumo responsable",
+        "promedio": 4.37,
+        "promotores_pct": 83.9
+      }
+    ]
+  },
+  "impacto_retencion": {
+    "distribucion_influye": {
+      "Influye poco": 248,
+      "No influye": 141,
+      "Influye bastante": 365,
+      "Es decisivo": 82
+    },
+    "conocia_vs_influye": {
+      "Sí": {
+        "Influye poco": 45,
+        "No influye": 42,
+        "Influye bastante": 70,
+        "Es decisivo": 27
+      },
+      "No": {
+        "No influye": 99,
+        "Influye bastante": 295,
+        "Es decisivo": 55,
+        "Influye poco": 203
+      }
+    },
+    "frecuencia_vs_influye": {
+      "Ocasional (1–2 veces/mes)": {
+        "Influye poco": 111,
+        "No influye": 49,
+        "Influye bastante": 142,
+        "Es decisivo": 21
+      },
+      "Primera vez": {
+        "Influye bastante": 107,
+        "Es decisivo": 18,
+        "Influye poco": 54,
+        "No influye": 30
+      },
+      "Muy frecuente (varias veces/semana)": {
+        "No influye": 24,
+        "Influye bastante": 34,
+        "Es decisivo": 19,
+        "Influye poco": 21
+      },
+      "Frecuente (semanal)": {
+        "Influye bastante": 82,
+        "Es decisivo": 24,
+        "Influye poco": 62,
+        "No influye": 38
+      }
+    }
+  },
+  "opinion_3_porciento": {
+    "distribucion": {
+      "Me encanta": 441,
+      "Me gusta": 320,
+      "Me gusta poco": 61,
+      "No me gusta nada": 14
+    },
+    "por_tipo_cliente": {
+      "primera_vez": {
+        "Me encanta": 126,
+        "Me gusta": 100,
+        "No me gusta nada": 3,
+        "Me gusta poco": 11
+      },
+      "recurrente": {
+        "Me encanta": 315,
+        "Me gusta": 220,
+        "Me gusta poco": 50,
+        "No me gusta nada": 11
+      }
+    },
+    "por_pais": {
+      "MX": {
+        "Me encanta": 17,
+        "Me gusta": 8,
+        "Me gusta poco": 1
+      },
+      "CO": {
+        "Me gusta": 177,
+        "Me encanta": 228,
+        "Me gusta poco": 30,
+        "No me gusta nada": 3
+      },
+      "CR": {
+        "Me encanta": 12,
+        "Me gusta": 18,
+        "No me gusta nada": 9,
+        "Me gusta poco": 3
+      },
+      "Sin especificar": {
+        "Me encanta": 184,
+        "Me gusta": 117,
+        "Me gusta poco": 27,
+        "No me gusta nada": 2
+      }
+    },
+    "conocia_iniciativa": {
+      "Sí": 184,
+      "No": 652
+    }
+  },
+  "segmentacion_cruzada": {
+    "beneficios_por_pais": {
+      "CO": {
+        "ingresos_caficultores": 4.29,
+        "suelos_sanos": 4.31,
+        "retencion_agua": 4.35,
+        "menos_erosion": 4.4,
+        "mas_nutrientes": 4.42,
+        "menos_quimicos": 4.43,
+        "menos_basura": 4.41,
+        "captura_co2": 4.38,
+        "biodiversidad_suelo": 4.43,
+        "mejor_sabor": 4.38,
+        "resiliencia_climatica": 4.39,
+        "orgullo_consumo": 4.33,
+        "conexion_productor": 4.4
+      },
+      "CR": {
+        "ingresos_caficultores": 4.33,
+        "suelos_sanos": 4.24,
+        "retencion_agua": 4.43,
+        "menos_erosion": 4.33,
+        "mas_nutrientes": 4.36,
+        "menos_quimicos": 4.5,
+        "menos_basura": 4.4,
+        "captura_co2": 4.36,
+        "biodiversidad_suelo": 4.36,
+        "mejor_sabor": 4.45,
+        "resiliencia_climatica": 4.45,
+        "orgullo_consumo": 4.31,
+        "conexion_productor": 4.57
+      },
+      "MX": {
+        "ingresos_caficultores": 4.58,
+        "suelos_sanos": 4.46,
+        "retencion_agua": 4.46,
+        "menos_erosion": 4.54,
+        "mas_nutrientes": 4.62,
+        "menos_quimicos": 4.62,
+        "menos_basura": 4.62,
+        "captura_co2": 4.35,
+        "biodiversidad_suelo": 4.42,
+        "mejor_sabor": 4.54,
+        "resiliencia_climatica": 4.46,
+        "orgullo_consumo": 4.5,
+        "conexion_productor": 4.54
+      }
+    },
+    "beneficios_por_frecuencia": {
+      "primera_vez": {
+        "label": "Primera vez",
+        "n": 209,
+        "promedios": {
+          "ingresos_caficultores": 4.42,
+          "suelos_sanos": 4.45,
+          "retencion_agua": 4.47,
+          "menos_erosion": 4.48,
+          "mas_nutrientes": 4.51,
+          "menos_quimicos": 4.55,
+          "menos_basura": 4.52,
+          "captura_co2": 4.5,
+          "biodiversidad_suelo": 4.51,
+          "mejor_sabor": 4.43,
+          "resiliencia_climatica": 4.53,
+          "orgullo_consumo": 4.42,
+          "conexion_productor": 4.49
+        }
+      },
+      "ocasional": {
+        "label": "Ocasional (1–2 veces/mes)",
+        "n": 323,
+        "promedios": {
+          "ingresos_caficultores": 4.41,
+          "suelos_sanos": 4.51,
+          "retencion_agua": 4.4,
+          "menos_erosion": 4.48,
+          "mas_nutrientes": 4.49,
+          "menos_quimicos": 4.51,
+          "menos_basura": 4.5,
+          "captura_co2": 4.46,
+          "biodiversidad_suelo": 4.51,
+          "mejor_sabor": 4.41,
+          "resiliencia_climatica": 4.49,
+          "orgullo_consumo": 4.39,
+          "conexion_productor": 4.51
+        }
+      },
+      "frecuente": {
+        "label": "Frecuente (semanal)",
+        "n": 206,
+        "promedios": {
+          "ingresos_caficultores": 4.36,
+          "suelos_sanos": 4.3,
+          "retencion_agua": 4.36,
+          "menos_erosion": 4.36,
+          "mas_nutrientes": 4.39,
+          "menos_quimicos": 4.47,
+          "menos_basura": 4.42,
+          "captura_co2": 4.43,
+          "biodiversidad_suelo": 4.37,
+          "mejor_sabor": 4.39,
+          "resiliencia_climatica": 4.45,
+          "orgullo_consumo": 4.37,
+          "conexion_productor": 4.42
+        }
+      },
+      "muy_frecuente": {
+        "label": "Muy frecuente (varias veces/semana)",
+        "n": 98,
+        "promedios": {
+          "ingresos_caficultores": 4.31,
+          "suelos_sanos": 4.42,
+          "retencion_agua": 4.31,
+          "menos_erosion": 4.42,
+          "mas_nutrientes": 4.42,
+          "menos_quimicos": 4.53,
+          "menos_basura": 4.39,
+          "captura_co2": 4.23,
+          "biodiversidad_suelo": 4.49,
+          "mejor_sabor": 4.41,
+          "resiliencia_climatica": 4.35,
+          "orgullo_consumo": 4.21,
+          "conexion_productor": 4.35
+        }
+      }
+    },
+    "nps_por_coffee_shop": {
+      "CO - 122 B": {
+        "total": 39,
+        "me_encanta": 18,
+        "me_gusta": 18,
+        "nps_score": 92.3
+      },
+      "CO - Calle 109": {
+        "total": 83,
+        "me_encanta": 22,
+        "me_gusta": 54,
+        "nps_score": 91.6
+      },
+      "CO - Calle 79": {
+        "total": 35,
+        "me_encanta": 22,
+        "me_gusta": 10,
+        "nps_score": 91.4
+      },
+      "CO - Calle 85": {
+        "total": 47,
+        "me_encanta": 16,
+        "me_gusta": 29,
+        "nps_score": 95.7
+      },
+      "CO - Calle 93": {
+        "total": 77,
+        "me_encanta": 54,
+        "me_gusta": 13,
+        "nps_score": 87.0
+      },
+      "CO - FIC48": {
+        "total": 46,
+        "me_encanta": 28,
+        "me_gusta": 17,
+        "nps_score": 97.8
+      },
+      "CO - Getsemani": {
+        "total": 7,
+        "me_encanta": 7,
+        "me_gusta": 0,
+        "nps_score": 100.0
+      },
+      "CO - Usaquen": {
+        "total": 45,
+        "me_encanta": 28,
+        "me_gusta": 15,
+        "nps_score": 95.6
+      },
+      "CO - Zona G": {
+        "total": 59,
+        "me_encanta": 33,
+        "me_gusta": 21,
+        "nps_score": 91.5
+      },
+      "CR - Escalante": {
+        "total": 42,
+        "me_encanta": 12,
+        "me_gusta": 18,
+        "nps_score": 71.4
+      },
+      "MX - Colima 340": {
+        "total": 11,
+        "me_encanta": 8,
+        "me_gusta": 3,
+        "nps_score": 100.0
+      },
+      "MX - Roma Norte": {
+        "total": 15,
+        "me_encanta": 9,
+        "me_gusta": 5,
+        "nps_score": 93.3
+      }
+    }
+  }
+}
