@@ -1,6 +1,6 @@
 # CONTEXTO DEL PROYECTO - Biochar Insights Dashboard
 
-> **Última actualización:** 2026-01-11
+> **Última actualización:** 2026-01-20
 > **Cliente:** Libertario Coffee
 > **Repositorio:** https://github.com/Fsardi19/biochar-dashboard
 
@@ -151,6 +151,10 @@ biochar-dashboard/
 ├── requirements.txt          # streamlit>=1.28.0, plotly>=5.18.0
 ├── README.md                 # Documentación
 ├── PROJECT_CONTEXT.md        # Este archivo
+├── GUIA_COMUNICACION.md      # Lineamientos de comunicación (Emilio)
+├── GUIA_COMUNICACION_POR_PAIS.md  # Guía práctica por país (CO, CR, MX)
+├── Guia de contenidos..docx  # Documento original Emilio
+├── Guia de entrega de contenidos.docx  # Documento original Emilio
 ├── .gitignore
 ├── .streamlit/
 │   └── config.toml           # Tema con colores Libertario
@@ -187,24 +191,54 @@ biochar-dashboard/
 
 ### Local
 ```bash
-cd /Users/felipesardi/Downloads/biochar-dashboard
+cd "/Users/felipesardi/Desktop/EL GREEN HUB/COFFEE SHOPS/AI STRATEGY/biochar-dashboard"
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
 ---
 
-## 9. PRÓXIMOS PASOS SUGERIDOS
+## 9. ESTRATEGIA DE COMUNICACIÓN EN TIENDAS
+
+> **Lineamientos generales:** `GUIA_COMUNICACION.md`
+> **Guía práctica por país:** `GUIA_COMUNICACION_POR_PAIS.md`
+
+### Resumen de la Estrategia
+- **Canal**: Pantallas en tiendas + códigos QR para profundizar
+- **Formato**: Máximo 5 imágenes rotando cada 3 minutos
+- **Regla**: Máximo 7 palabras por imagen
+- **Prueba piloto**: Colombia, 1 mes
+
+### 3 Áreas Temáticas de Mensajes
+1. **Naturaleza**: Agua, Suelo, Biodiversidad, Aire
+2. **Cambio Climático**: Captura de carbono
+3. **Impacto Económico**: Ahorros y mayores ingresos para caficultores
+
+### Tipos de Contenido
+- **Declaraciones**: Valores y compromisos de Libertario
+- **Opiniones informadas**: Basadas en evidencia, siempre con fuente citada
+
+### Conexión con Dashboard
+Los datos de la encuesta permiten personalizar mensajes por tienda según:
+- Beneficio #1 de cada local
+- Nivel de awareness
+- Perfil de clientes (primera vez vs recurrentes)
+
+---
+
+## 10. PRÓXIMOS PASOS SUGERIDOS
 
 1. [ ] Completar deploy en Streamlit Cloud
 2. [ ] Investigar baja satisfacción en CR - Escalante
 3. [ ] Implementar material visual en tiendas con bajo awareness
 4. [ ] Programa de embajadores en tiendas con alta influencia en retorno
 5. [ ] Catas comparativas en tiendas donde "sabor" es driver #1
+6. [ ] Diseñar las 5 imágenes para pantallas según guía de comunicación
+7. [ ] Preparar contenido QR para cada imagen
 
 ---
 
-## 10. CONTACTO Y REFERENCIAS
+## 11. CONTACTO Y REFERENCIAS
 
 - **Proyecto:** Biochar - Libertario Coffee
 - **Archivo fuente:** `datos_crudos_encuesta_20250108.csv`

@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Comunicación Biochar - Libertario Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --azul: #182b55;
+            --azul-claro: #2a4a7f;
+            --beige: #e8e4de;
+            --crema: #f5f1eb;
+            --blanco: #ffffff;
+            --gris: #6b7280;
+            --naranja: #c9a227;
+            --rojo: #b91c1c;
+            --verde: #047857;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Libre Baskerville', Georgia, serif;
+            background: var(--crema);
+            color: var(--azul);
+            line-height: 1.5;
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: var(--blanco);
+        }
+
+        /* HERO - solo color, sin imagen */
+        .hero {
+            background: var(--azul);
+            padding: 50px 60px;
+            color: var(--blanco);
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+
+        .hero .tagline {
+            font-style: italic;
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 25px;
+        }
+
+        .hero .subtitle {
+            font-size: 22px;
+            font-weight: 400;
+            border-left: 3px solid var(--naranja);
+            padding-left: 15px;
+        }
+
+        /* FOTOS - grid simple sin texto */
+        .photos-row {
+            display: flex;
+        }
+        .photos-row img {
+            flex: 1;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        /* KEY MESSAGE */
+        .key-message {
+            background: var(--crema);
+            border-left: 4px solid var(--naranja);
+            padding: 25px 30px;
+            margin: 30px 40px;
+        }
+
+        .key-message h3 {
+            color: var(--azul);
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .key-message p {
+            font-size: 18px;
+            color: var(--azul);
+        }
+
+        .key-message .note {
+            font-size: 13px;
+            color: var(--gris);
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* DASHBOARD LINK BOX */
+        .dashboard-link-box {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 25px 40px;
+            margin: 0 40px 30px 40px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .dashboard-link-box p {
+            font-size: 16px;
+        }
+
+        .dashboard-link-box a {
+            background: var(--naranja);
+            color: var(--blanco);
+            padding: 12px 25px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 40px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .section-header h2 {
+            font-size: 24px;
+            color: var(--azul);
+        }
+
+        .section-header::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--beige);
+            margin-left: 20px;
+        }
+
+        /* DASHBOARD CARDS */
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .dashboard-card {
+            background: var(--blanco);
+            border: 1px solid var(--beige);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .dashboard-card.highlight {
+            border: 2px solid var(--azul);
+        }
+
+        .card-header {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 12px 15px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .big-number {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--azul);
+            line-height: 1;
+        }
+        .big-number.success { color: var(--verde); }
+        .big-number.alert { color: var(--rojo); }
+
+        .metric-label {
+            font-size: 12px;
+            color: var(--gris);
+            margin-top: 5px;
+        }
+
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--beige);
+            font-size: 13px;
+        }
+        .metric-row:last-child { border: none; }
+        .metric-row .label { color: var(--gris); }
+        .metric-row .value { font-weight: 700; }
+
+        /* COUNTRY SECTIONS */
+        .country-section {
+            background: var(--crema);
+            padding: 40px;
+        }
+
+        .country-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .country-flag {
+            width: 60px;
+            height: 40px;
+            background: var(--azul);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--blanco);
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .country-title h2 {
+            font-size: 28px;
+            color: var(--azul);
+            margin-bottom: 5px;
+        }
+
+        .country-title .stores {
+            font-size: 14px;
+            color: var(--gris);
+        }
+
+        /* INSIGHTS GRID */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .insight-card {
+            background: var(--blanco);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .insight-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--azul);
+        }
+        .insight-value.good { color: var(--verde); }
+        .insight-value.bad { color: var(--rojo); }
+
+        .insight-label {
+            font-size: 11px;
+            color: var(--gris);
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+
+        /* TABLES */
+        .benefits-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+
+        .benefits-table th {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 11px;
+            text-transform: uppercase;
+        }
+
+        .benefits-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--beige);
+        }
+
+        .benefits-table tr:nth-child(even) {
+            background: var(--crema);
+        }
+
+        .rank {
+            width: 30px;
+            text-align: center;
+            font-weight: 700;
+            color: var(--naranja);
+        }
+
+        /* MESSAGES */
+        .messages-section {
+            background: var(--blanco);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .messages-section h3 {
+            font-size: 16px;
+            color: var(--azul);
+            margin-bottom: 20px;
+        }
+
+        .message-item {
+            display: grid;
+            grid-template-columns: 40px 1fr auto;
+            gap: 15px;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--beige);
+        }
+        .message-item:last-child { border: none; }
+
+        .message-number {
+            width: 40px;
+            height: 40px;
+            background: var(--azul);
+            color: var(--blanco);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        .message-text {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--azul);
+        }
+
+        .message-qr {
+            font-size: 11px;
+            color: var(--gris);
+            text-align: right;
+        }
+
+        /* ALERT/SUCCESS BOXES */
+        .alert-box {
+            background: #fef2f2;
+            border-left: 4px solid var(--rojo);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+        .alert-box h4 {
+            color: var(--rojo);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .success-box {
+            background: #ecfdf5;
+            border-left: 4px solid var(--verde);
+            padding: 20px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+        }
+        .success-box h4 {
+            color: var(--verde);
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .info-box {
+            background: var(--crema);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        /* ACTION PLAN */
+        .action-plan {
+            background: var(--blanco);
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .action-plan h4 {
+            font-size: 14px;
+            color: var(--azul);
+            margin-bottom: 15px;
+        }
+
+        .action-step {
+            display: flex;
+            gap: 15px;
+            padding: 10px 0;
+            font-size: 13px;
+        }
+
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: var(--beige);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        /* STORES */
+        .stores-comparison {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .store-card {
+            background: var(--blanco);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .store-header {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 12px 15px;
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .store-metrics {
+            padding: 15px;
+        }
+
+        .store-metric {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 13px;
+            border-bottom: 1px solid var(--beige);
+        }
+        .store-metric:last-child { border: none; }
+
+        /* GUIDELINES */
+        .guidelines {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 50px 40px;
+        }
+
+        .guidelines h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .guidelines-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .guideline-card {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 8px;
+        }
+
+        .guideline-card h4 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            color: var(--naranja);
+        }
+
+        .guideline-card ul {
+            list-style: none;
+        }
+
+        .guideline-card li {
+            padding: 8px 0;
+            font-size: 14px;
+        }
+
+        .do-dont {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .do-list {
+            background: rgba(4,120,87,0.2);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .dont-list {
+            background: rgba(185,28,28,0.2);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .do-list h5 { color: #34d399; font-size: 12px; text-transform: uppercase; margin-bottom: 10px; }
+        .dont-list h5 { color: #f87171; font-size: 12px; text-transform: uppercase; margin-bottom: 10px; }
+
+        /* METRICS SECTION */
+        .metrics-section {
+            padding: 40px;
+            background: var(--crema);
+        }
+
+        .metrics-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .goal-card {
+            background: var(--blanco);
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .goal-current {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--gris);
+        }
+
+        .goal-arrow {
+            font-size: 20px;
+            color: var(--naranja);
+            margin: 5px 0;
+        }
+
+        .goal-target {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--verde);
+        }
+
+        .goal-label {
+            font-size: 11px;
+            color: var(--gris);
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--azul);
+            color: var(--blanco);
+            padding: 40px;
+            text-align: center;
+        }
+
+        footer h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        /* QUOTE */
+        .quote {
+            background: var(--crema);
+            padding: 30px 40px;
+            margin: 0 40px;
+            border-left: 4px solid var(--naranja);
+            font-style: italic;
+            font-size: 18px;
+            color: var(--azul);
+        }
+
+        @media print {
+            .container { max-width: 100%; }
+            .country-section { page-break-before: always; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HERO - solo color solido, sin imagen -->
+    <header class="hero">
+        <h1>LIBERTARIO COFFEE</h1>
+        <p class="tagline">Born in Colombia, Crafted for the World</p>
+        <p class="subtitle">Guia de Comunicacion del Proyecto Biochar</p>
+    </header>
+
+    <!-- FOTOS - fila simple, sin texto encima -->
+    <div class="photos-row">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300" alt="Latte">
+        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=300" alt="Pour over">
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=300" alt="Cappuccino">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300" alt="Coffee">
+    </div>
+
+    <!-- KEY MESSAGE -->
+    <div class="key-message">
+        <h3>El compromiso que nos define</h3>
+        <p><strong>El 3% de cada venta financia la produccion de biochar en fincas cafeteras,</strong> regenerando suelos, fortaleciendo familias y construyendo un futuro mas habitable.</p>
+        <p class="note">El biochar es carbon vegetal que mejora la salud del suelo, retiene agua y captura CO2.</p>
+    </div>
+
+    <!-- DASHBOARD LINK - DESTACADO -->
+    <div class="dashboard-link-box">
+        <p><strong>Ver resultados completos de la encuesta:</strong></p>
+        <a href="https://biochar-dashboard-tiw6cdz2wcjbcrjto4ssev.streamlit.app/" target="_blank">Abrir Dashboard Interactivo</a>
+    </div>
+
+    <!-- EXECUTIVE DASHBOARD -->
+    <section>
+        <div class="section-header">
+            <h2>Vision General</h2>
+        </div>
+
+        <p style="color: var(--gris); margin-bottom: 25px;">Basado en 836 clientes encuestados | Noviembre 2025 - Enero 2026</p>
+
+        <div class="dashboard">
+            <div class="dashboard-card highlight">
+                <div class="card-header">Satisfaccion Global</div>
+                <div class="card-body">
+                    <div class="big-number success">91%</div>
+                    <div class="metric-label">Les encanta o les gusta la iniciativa</div>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-header">Oportunidad</div>
+                <div class="card-body">
+                    <div class="big-number">78%</div>
+                    <div class="metric-label">No conocia el proyecto antes</div>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-header">Impacto en Lealtad</div>
+                <div class="card-body">
+                    <div class="big-number">44%</div>
+                    <div class="metric-label">Dice que influye en su retorno</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard">
+            <div class="dashboard-card">
+                <div class="card-header">Colombia</div>
+                <div class="card-body">
+                    <div class="metric-row"><span class="label">Tiendas</span><span class="value">10</span></div>
+                    <div class="metric-row"><span class="label">Encuestados</span><span class="value">438</span></div>
+                    <div class="metric-row"><span class="label">Satisfaccion</span><span class="value" style="color: var(--verde);">92.5%</span></div>
+                    <div class="metric-row"><span class="label">Influye retorno</span><span class="value">52.1%</span></div>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-header">Costa Rica</div>
+                <div class="card-body">
+                    <div class="metric-row"><span class="label">Tiendas</span><span class="value">1</span></div>
+                    <div class="metric-row"><span class="label">Encuestados</span><span class="value">42</span></div>
+                    <div class="metric-row"><span class="label">Satisfaccion</span><span class="value" style="color: var(--rojo);">71.4%</span></div>
+                    <div class="metric-row"><span class="label">Influye retorno</span><span class="value">42.9%</span></div>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <div class="card-header">Mexico</div>
+                <div class="card-body">
+                    <div class="metric-row"><span class="label">Tiendas</span><span class="value">2</span></div>
+                    <div class="metric-row"><span class="label">Encuestados</span><span class="value">26</span></div>
+                    <div class="metric-row"><span class="label">Satisfaccion</span><span class="value" style="color: var(--verde);">96.2%</span></div>
+                    <div class="metric-row"><span class="label">Influye retorno</span><span class="value" style="color: var(--verde);">69.2%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <strong>Beneficio mas valorado globalmente:</strong> "Menos quimicos en las fincas" (4.51/5)
+        </div>
+    </section>
+
+    <!-- QUOTE - separado, sin imagen -->
+    <div class="quote">
+        "El cafe que disfrutas hoy tambien construye un futuro mas habitable."
+    </div>
+
+    <!-- COLOMBIA -->
+    <section class="country-section">
+        <div class="country-header">
+            <div class="country-flag">CO</div>
+            <div class="country-title">
+                <h2>Colombia</h2>
+                <span class="stores">10 tiendas en Bogota y Cartagena</span>
+            </div>
+        </div>
+
+        <div class="insights-grid">
+            <div class="insight-card">
+                <div class="insight-value">438</div>
+                <div class="insight-label">Encuestados</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value good">92.5%</div>
+                <div class="insight-label">Satisfaccion</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value">27%</div>
+                <div class="insight-label">Conocia proyecto</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value">52%</div>
+                <div class="insight-label">Influye retorno</div>
+            </div>
+        </div>
+
+        <h3 style="margin-bottom: 15px; font-size: 16px;">Lo que mas valoran los colombianos</h3>
+        <table class="benefits-table">
+            <thead>
+                <tr><th class="rank">#</th><th>Beneficio</th><th>Puntaje</th><th>Area</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="rank">1</td><td><strong>Menos quimicos en fincas</strong></td><td>4.43/5</td><td>Naturaleza</td></tr>
+                <tr><td class="rank">2</td><td>Biodiversidad del suelo</td><td>4.43/5</td><td>Naturaleza</td></tr>
+                <tr><td class="rank">3</td><td>Menos basura en finca</td><td>4.41/5</td><td>Naturaleza</td></tr>
+            </tbody>
+        </table>
+
+        <div class="messages-section">
+            <h3>5 Mensajes para pantallas (max. 7 palabras)</h3>
+            <div class="message-item">
+                <div class="message-number">1</div>
+                <div class="message-text">"3% de tu compra regenera fincas"</div>
+                <div class="message-qr">QR → Video 60s biochar</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">2</div>
+                <div class="message-text">"Financiamos agricultura sin quimicos"</div>
+                <div class="message-qr">QR → Infografia impacto</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">3</div>
+                <div class="message-text">"Tu cafe apoya suelos vivos"</div>
+                <div class="message-qr">QR → Fotos fincas</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">4</div>
+                <div class="message-text">"Biochar: carbon que regenera tierra"</div>
+                <div class="message-qr">QR → Proceso</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">5</div>
+                <div class="message-text">"Pregunta como funciona el 3%"</div>
+                <div class="message-qr">QR → FAQ</div>
+            </div>
+        </div>
+
+        <div style="margin-top: 25px;">
+            <h3 style="margin-bottom: 15px; font-size: 16px;">Tiendas destacadas</h3>
+            <div class="stores-comparison">
+                <div class="store-card">
+                    <div class="store-header" style="background: var(--verde);">Tiendas Modelo</div>
+                    <div class="store-metrics">
+                        <div class="store-metric"><span>Getsemani</span><span style="color: var(--verde); font-weight: 700;">100%</span></div>
+                        <div class="store-metric"><span>FIC48</span><span style="color: var(--verde); font-weight: 700;">97.8%</span></div>
+                        <div class="store-metric"><span>Calle 85</span><span style="color: var(--verde); font-weight: 700;">95.7%</span></div>
+                    </div>
+                </div>
+                <div class="store-card">
+                    <div class="store-header" style="background: var(--naranja);">Bajo awareness</div>
+                    <div class="store-metrics">
+                        <div class="store-metric"><span>Calle 93</span><span>19.5% conocia</span></div>
+                        <div class="store-metric"><span>Usaquen</span><span>17.8% conocia</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COSTA RICA -->
+    <section class="country-section" style="background: var(--blanco);">
+        <div class="country-header">
+            <div class="country-flag" style="background: var(--rojo);">CR</div>
+            <div class="country-title">
+                <h2>Costa Rica</h2>
+                <span class="stores">Escalante, San Jose</span>
+            </div>
+        </div>
+
+        <div class="alert-box">
+            <h4>Alerta: Satisfaccion 20 puntos bajo el promedio</h4>
+            <p>71.4% vs 91% global. El 21.4% dice "No me gusta". Requiere atencion inmediata.</p>
+        </div>
+
+        <div class="insights-grid">
+            <div class="insight-card">
+                <div class="insight-value">42</div>
+                <div class="insight-label">Encuestados</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value bad">71.4%</div>
+                <div class="insight-label">Satisfaccion</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value">24%</div>
+                <div class="insight-label">Conocia proyecto</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value">43%</div>
+                <div class="insight-label">Influye retorno</div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <strong>Insight clave:</strong> El beneficio #1 es "Conexion productor-consumidor" (4.57/5). Quieren sentirse parte de la historia.
+        </div>
+
+        <table class="benefits-table">
+            <thead>
+                <tr><th class="rank">#</th><th>Beneficio</th><th>Puntaje</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="rank">1</td><td><strong>Conexion productor-consumidor</strong></td><td>4.57/5</td></tr>
+                <tr><td class="rank">2</td><td>Menos quimicos</td><td>4.50/5</td></tr>
+                <tr><td class="rank">3</td><td>Mejor sabor en taza</td><td>4.45/5</td></tr>
+            </tbody>
+        </table>
+
+        <div class="messages-section">
+            <h3>Estrategia Escalante: EDUCAR + CONECTAR</h3>
+            <div class="message-item">
+                <div class="message-number">1</div>
+                <div class="message-text">"Tu 3% llega directo a fincas"</div>
+                <div class="message-qr">QR → Mapa fincas</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">2</div>
+                <div class="message-text">"Conoce al caficultor que ayudas"</div>
+                <div class="message-qr">QR → Perfiles</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">3</div>
+                <div class="message-text">"Que es el biochar? Preguntanos"</div>
+                <div class="message-qr">QR → Video 60s</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">4</div>
+                <div class="message-text">"Agricultura regenerativa en accion"</div>
+                <div class="message-qr">QR → Antes/despues</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">5</div>
+                <div class="message-text">"Tu opinion nos importa"</div>
+                <div class="message-qr">QR → Feedback</div>
+            </div>
+        </div>
+
+        <div class="action-plan" style="margin-top: 25px;">
+            <h4>Plan de recuperacion (4 semanas)</h4>
+            <div class="action-step"><span class="step-number">1</span><span><strong>Sem 1:</strong> Investigar causas con equipo local</span></div>
+            <div class="action-step"><span class="step-number">2</span><span><strong>Sem 2:</strong> Capacitar baristas como embajadores</span></div>
+            <div class="action-step"><span class="step-number">3</span><span><strong>Sem 3:</strong> Instalar material visual</span></div>
+            <div class="action-step"><span class="step-number">4</span><span><strong>Sem 4:</strong> Medir satisfaccion nuevamente</span></div>
+        </div>
+    </section>
+
+    <!-- MEXICO -->
+    <section class="country-section">
+        <div class="country-header">
+            <div class="country-flag" style="background: var(--verde);">MX</div>
+            <div class="country-title">
+                <h2>Mexico</h2>
+                <span class="stores">Roma Norte y Colima 340, CDMX</span>
+            </div>
+        </div>
+
+        <div class="success-box">
+            <h4>Caso de exito: La satisfaccion mas alta por pais</h4>
+            <p>96.2% satisfaccion. Colima 340 tiene 100%. El 69.2% dice que influye en su retorno.</p>
+        </div>
+
+        <div class="insights-grid">
+            <div class="insight-card">
+                <div class="insight-value">26</div>
+                <div class="insight-label">Encuestados</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value good">96.2%</div>
+                <div class="insight-label">Satisfaccion</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value">23%</div>
+                <div class="insight-label">Conocia proyecto</div>
+            </div>
+            <div class="insight-card">
+                <div class="insight-value good">69%</div>
+                <div class="insight-label">Influye retorno</div>
+            </div>
+        </div>
+
+        <table class="benefits-table">
+            <thead>
+                <tr><th class="rank">#</th><th>Beneficio</th><th>Puntaje</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="rank">1</td><td><strong>Mas nutrientes en el suelo</strong></td><td>4.62/5</td></tr>
+                <tr><td class="rank">2</td><td>Menos quimicos</td><td>4.62/5</td></tr>
+                <tr><td class="rank">3</td><td>Menos basura en finca</td><td>4.62/5</td></tr>
+            </tbody>
+        </table>
+
+        <div class="stores-comparison" style="margin-bottom: 25px;">
+            <div class="store-card">
+                <div class="store-header">Roma Norte</div>
+                <div class="store-metrics">
+                    <div class="store-metric"><span>Satisfaccion</span><span>93.3%</span></div>
+                    <div class="store-metric"><span>Awareness</span><span style="color: var(--rojo);">13.3%</span></div>
+                    <div class="store-metric"><span>Influye retorno</span><span style="color: var(--verde);">80%</span></div>
+                </div>
+            </div>
+            <div class="store-card">
+                <div class="store-header" style="background: var(--verde);">Colima 340 (Modelo)</div>
+                <div class="store-metrics">
+                    <div class="store-metric"><span>Satisfaccion</span><span style="color: var(--verde);">100%</span></div>
+                    <div class="store-metric"><span>Awareness</span><span>36.4%</span></div>
+                    <div class="store-metric"><span>Influye retorno</span><span>63.6%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="messages-section">
+            <h3>5 Mensajes para pantallas en Mexico</h3>
+            <div class="message-item">
+                <div class="message-number">1</div>
+                <div class="message-text">"3% para suelos mas nutritivos"</div>
+                <div class="message-qr">QR → Infografia</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">2</div>
+                <div class="message-text">"Tu cafe financia agricultura limpia"</div>
+                <div class="message-qr">QR → Video</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">3</div>
+                <div class="message-text">"Apoyamos caficultores regenerativos"</div>
+                <div class="message-qr">QR → Historia</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">4</div>
+                <div class="message-text">"Cafe con proposito, cafe Libertario"</div>
+                <div class="message-qr">QR → Certificado</div>
+            </div>
+            <div class="message-item">
+                <div class="message-number">5</div>
+                <div class="message-text">"Pregunta por el proyecto Biochar"</div>
+                <div class="message-qr">QR → FAQ</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GUIDELINES -->
+    <div class="guidelines">
+        <h2>Lineamientos de Comunicacion</h2>
+
+        <div style="background: rgba(201,162,39,0.2); padding: 20px; border-radius: 8px; margin-bottom: 30px; border-left: 4px solid var(--naranja);">
+            <strong style="color: var(--naranja);">Mensaje central (correcto):</strong><br>
+            "El 3% de cada venta financia la produccion de biochar en fincas cafeteras."<br><br>
+            <span style="color: #f87171;">NO decir: "Compramos cafe de fincas con biochar"</span>
+        </div>
+
+        <div class="guidelines-grid">
+            <div class="guideline-card">
+                <h4>Formato pantallas</h4>
+                <ul>
+                    <li>• Max 5 imagenes por rotacion</li>
+                    <li>• Cambio cada 3 minutos</li>
+                    <li>• Max 7 palabras por imagen</li>
+                    <li>• Altura: 1.50 metros</li>
+                </ul>
+            </div>
+            <div class="guideline-card">
+                <h4>Contenido QR</h4>
+                <ul>
+                    <li>• Videos: max 60 segundos</li>
+                    <li>• Infografias: 1 pagina</li>
+                    <li>• Perfiles productores con foto</li>
+                    <li>• Mapas fincas beneficiadas</li>
+                </ul>
+            </div>
+            <div class="guideline-card">
+                <h4>Tono de marca</h4>
+                <ul>
+                    <li>• Emocional, no tecnico</li>
+                    <li>• Verbos: restaurar, fortalecer</li>
+                    <li>• Conectar cafe con impacto</li>
+                    <li>• Aspiracional pero concreto</li>
+                </ul>
+            </div>
+            <div class="guideline-card">
+                <h4>Calendario</h4>
+                <ul>
+                    <li>• Mes 1: Piloto CO</li>
+                    <li>• Mes 2: Todas tiendas CO</li>
+                    <li>• Mes 2-3: Costa Rica</li>
+                    <li>• Mes 3: Mexico</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="do-dont">
+            <div class="do-list">
+                <h5>Permitido</h5>
+                <ul style="list-style: none; font-size: 13px;">
+                    <li>• Datos con fuente (n=836)</li>
+                    <li>• Testimonios con nombre</li>
+                    <li>• Fotos reales de fincas</li>
+                </ul>
+            </div>
+            <div class="dont-list">
+                <h5>Prohibido</h5>
+                <ul style="list-style: none; font-size: 13px;">
+                    <li>• Opiniones sin evidencia</li>
+                    <li>• Datos sin fuente</li>
+                    <li>• Afirmar compra de cafe</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- METRICS -->
+    <section class="metrics-section">
+        <div class="section-header">
+            <h2>Metas a 3 meses</h2>
+        </div>
+        <div class="metrics-cards">
+            <div class="goal-card">
+                <div class="goal-current">22%</div>
+                <div class="goal-arrow">→</div>
+                <div class="goal-target">35%</div>
+                <div class="goal-label">Awareness</div>
+            </div>
+            <div class="goal-card">
+                <div class="goal-current">71%</div>
+                <div class="goal-arrow">→</div>
+                <div class="goal-target">85%</div>
+                <div class="goal-label">Satisf. Costa Rica</div>
+            </div>
+            <div class="goal-card">
+                <div class="goal-current">44%</div>
+                <div class="goal-arrow">→</div>
+                <div class="goal-target">55%</div>
+                <div class="goal-label">Influye retorno</div>
+            </div>
+            <div class="goal-card">
+                <div class="goal-current">0</div>
+                <div class="goal-arrow">→</div>
+                <div class="goal-target">50+</div>
+                <div class="goal-label">Escaneos QR/sem</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>LIBERTARIO COFFEE</h3>
+        <p style="font-style: italic; margin-bottom: 15px;">Born in Colombia, Crafted for the World</p>
+        <p>Encuesta: 836 clientes | Nov 2025 - Ene 2026</p>
+        <p style="margin-top: 10px; font-size: 12px;">Parte de The Green Hub</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
